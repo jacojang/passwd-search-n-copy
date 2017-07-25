@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size : 12px;
+	font-family: Consolas,monaco,monospace;
+}
+
+h1 {
+	font-family: Consolas,monaco,monospace;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+h3 {
+	font-family: Consolas,monaco,monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Consolas,monaco,monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Consolas,monaco,monospace;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Consolas,monaco,monospace;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+}
+
+.header {
+  padding: 3px;
+}
+
+.desc {
+  font-size: 0.85em;
+  color: gray;
+}
+
+td, th {
+  padding:3px;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+th {
+  background-color: #EFEFEF;
+}
+
+td:last-child, th:last-child {
+  border-right: 1px solid gray;
+}
+
+td:nth-child(1), td:nth-child(2), td:nth-child(3) {
+  text-align: center;
+}
+
+tr:last-child td, th {
+  border-bottom: 1px solid gray;
+}
+
+input[type="button"] {
+  cursor:pointer;
+}
+
+#notice {
+  position: fixed;
+  width: 100px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 14px;
+  background-color: gray;
+  text-align: center;
+  right:0px;
+  top:0px;
+  display: none;
+}

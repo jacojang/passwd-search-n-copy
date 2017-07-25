@@ -1,0 +1,25 @@
+{
+  "name": "passwd-search-n-copy",
+  "version": "1.0.0",
+  "description": "Password Search & Copy",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/jacojang/passwd-search-n-copy.git",
+  "keywords": [
+    "Electron",
+    "tutorial",
+    "demo"
+  ],
+  "dependencies": {
+    "iconv-lite": "0.4.18",
+    "copy-paste": "1.3.0"
+  },
+  "author": "jacojang",
+  "license": "CC0 1.0",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "^8.7.2"
+  }
+}
